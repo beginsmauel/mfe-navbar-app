@@ -33,7 +33,7 @@ jobs:
         name: Build & push Docker image for Dashboard
         with:
           context: ./
-          tags:  ${{ secrets.DOCKER_USERNAME }}/mf-dashboard-app:latest
+          tags:  ${{ secrets.DOCKER_USERNAME }}/mf-navbar-app:latest
           push: true
           file: ./Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
