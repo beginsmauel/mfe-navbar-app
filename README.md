@@ -1,2 +1,2 @@
-# React navbar microfrontend
+# React navbar microfrontend APPs
 
